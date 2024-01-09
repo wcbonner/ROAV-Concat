@@ -6,6 +6,7 @@ This program creates daily sped up movies from the ROAV Dashcam recordings. One 
 ![image](./BMW-2023-Places.png)
 ![image](./BMW-2023-Map.jpg)
 
+[![Roav DashCam in AppStore](./ROAV-App-Icon.png)](https://apps.apple.com/app/id1191396519)
 The ROAV Dashcam formats its micro sd card using the FAT32 filesystem and is limited to a maximum sd card size of 128GB.
 
 It creates a directory entry at the root, ROAV, and a directory in ROAV, MOVIES.
@@ -33,8 +34,6 @@ A typical MOVIE directory might look like this:
 01/16/2023  05:01 PM            24,521 2023_0116_165628_005.info
 01/16/2023  05:01 PM       700,293,913 2023_0116_165628_005.MP4
 ```
-
-https://apps.apple.com/app/id1191396519
 
 Because my program uses the xmllite component of windows to create the KML files it would require a major rewrite to make portable to run on linux. https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ms752872(v=vs.85)
 ```
