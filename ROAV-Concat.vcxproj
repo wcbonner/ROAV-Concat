@@ -171,6 +171,14 @@
   <ItemGroup>
     <ResourceCompile Include="ROAV-Concat.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="BMW-2023-Map.jpg" />
+    <Image Include="BMW-2023-Places.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
