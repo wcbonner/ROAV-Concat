@@ -1,8 +1,8 @@
-#include "StdAfx.h"
+#include "stdafx.h"
 //#include <windows.h>
 //#include <stdio.h>
 //#include <tchar.h>
-#include "zip.h"
+//#include "zip.h"
 
 // THIS FILE is almost entirely based upon code by info-zip.
 // It has been modified by Lucian Wischik. The modifications
