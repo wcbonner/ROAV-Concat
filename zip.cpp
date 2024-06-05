@@ -64,6 +64,9 @@
 //       binary releases.
 //
 
+// https://www.wischik.com/lu/programmer/zip_utils.html
+// https://www.codeproject.com/Articles/7530/Zip-Utils-Clean-Elegant-Simple-Cplusplus-Win
+
 typedef unsigned char uch;      // unsigned 8-bit value
 typedef unsigned short ush;     // unsigned 16-bit value
 typedef unsigned long ulg;      // unsigned 32-bit value

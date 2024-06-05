@@ -68,6 +68,9 @@
 // for more info about .ZIP format, see ftp://ftp.cdrom.com/pub/infozip/doc/appnote-970311-iz.zip
 //   PkWare has also a specification at ftp://ftp.pkware.com/probdesc.zip
 
+// https://www.wischik.com/lu/programmer/zip_utils.html
+// https://www.codeproject.com/Articles/7530/Zip-Utils-Clean-Elegant-Simple-Cplusplus-Win
+
 #define ZIP_HANDLE   1
 #define ZIP_FILENAME 2
 #define ZIP_MEMORY   3
