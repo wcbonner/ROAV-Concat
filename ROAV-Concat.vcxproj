@@ -180,6 +180,7 @@
   <ItemGroup>
     <Image Include="BMW-2023-Map.jpg" />
     <Image Include="BMW-2023-Places.png" />
+    <Image Include="gps-reorder-2026-04-06.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

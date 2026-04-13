@@ -50,3 +50,16 @@ command Line Format:
 ```
 
 I typically run it with the current directory in the ROAV directory, with the parameters BMW and -auto. It will create daily video files with the prefix BMW, and a single KMZ file for the year, from whatever video files are in the MOVIE directory.
+
+## GPSReorder Parameter aded 2026-04-13
+The -GPSReorder parameter will reorder the video files based on the GPS coordinates in the .info files. 
+This is necessary because the ROAV Dashcam creates the video files in the order they are recorded, 
+but if you connect your phone to the ROAV via WiFi and the app soon after changing time zones, 
+the primary part of the filename will take on characteristics of the new timezone, creating an 
+overlap of data. The new code will examine the GPS coordinates in the .info files and reorder the 
+video files based on the GPS coordinates, so that they are in chronological order based on the GPS 
+coordinates. This is useful for creating a more accurate KMZ file, and for creating a more accurate 
+video file.
+
+I'm working from example files in my data D:\ROAV\MOVIE\2026_0406_115913_422.info and D:\ROAV\MOVIE\2026_0406_110058_001A.info
+![image](./gps-reorder-2026-04-06.jpg)
